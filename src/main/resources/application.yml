@@ -1,0 +1,9 @@
+
+spring:
+  r2dbc:
+    url: r2dbc:mysql://localhost:3306/god_tong
+    username: root
+    password: 1234
+    pool:
+      enabled: true
+      max-size: 10
